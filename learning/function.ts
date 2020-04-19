@@ -1,4 +1,4 @@
-function add(x: number, y: number, z?: number = 2): number {
+function add(x: number, y: number, z: number = 2): number {
   if (typeof z === 'number') {
     return x + y + z
   }
